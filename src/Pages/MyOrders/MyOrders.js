@@ -14,7 +14,6 @@ const MyOrders = () => {
     },[])
 
     let myOrders = orders.filter(order =>  order.buyerEmail == user.email)
-    console.log(myOrders)
 
     return (
         <div className='container'>

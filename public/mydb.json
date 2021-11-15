@@ -1,1 +1,84 @@
-[{"id":1,"name":"Dell Inspiron 15","price":64000,"description":"Model: Dell Inspiron 15 3501 Intel Core i5-1135G7 Processor (8M Cache,2.40 GHz up to 4.20 GHz) 4GB RAM +1TB HDD 15.6\" FHD(1920x1080) Display GeForce MX330 2GB graphics","img":"https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron/dell-intel/dell-intel-0014-500x500.jpg","brand":"DELL","rating":4.5},{"id":2,"name":"Dell Inspiron 15","price":64000,"description":"Model: Dell Inspiron 15 3501 Intel Core i5-1135G7 Processor (8M Cache,2.40 GHz up to 4.20 GHz) 4GB RAM +1TB HDD 15.6\" FHD(1920x1080) Display GeForce MX330 2GB graphics","img":"https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron/dell-intel/dell-intel-0014-500x500.jpg","brand":"DELL","rating":4.5},{"id":3,"name":"Dell Inspiron 15","price":64000,"description":"Model: Dell Inspiron 15 3501 Intel Core i5-1135G7 Processor (8M Cache,2.40 GHz up to 4.20 GHz) 4GB RAM +1TB HDD 15.6\" FHD(1920x1080) Display GeForce MX330 2GB graphics","img":"https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron/dell-intel/dell-intel-0014-500x500.jpg","brand":"DELL","rating":4.5},{"id":4,"name":"Dell Inspiron 15","price":64000,"description":"Model: Dell Inspiron 15 3501 Intel Core i5-1135G7 Processor (8M Cache,2.40 GHz up to 4.20 GHz) 4GB RAM +1TB HDD 15.6\" FHD(1920x1080) Display GeForce MX330 2GB graphics","img":"https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron/dell-intel/dell-intel-0014-500x500.jpg","brand":"DELL","rating":4.5},{"id":5,"name":"Dell Inspiron 15","price":64000,"description":"Model: Dell Inspiron 15 3501 Intel Core i5-1135G7 Processor (8M Cache,2.40 GHz up to 4.20 GHz) 4GB RAM +1TB HDD 15.6\" FHD(1920x1080) Display GeForce MX330 2GB graphics","img":"https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron/dell-intel/dell-intel-0014-500x500.jpg","brand":"DELL","rating":4.5},{"id":6,"name":"Dell Inspiron 15","price":64000,"description":"Model: Dell Inspiron 15 3501 Intel Core i5-1135G7 Processor (8M Cache,2.40 GHz up to 4.20 GHz) 4GB RAM +1TB HDD 15.6\" FHD(1920x1080) Display GeForce MX330 2GB graphics","img":"https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron/dell-intel/dell-intel-0014-500x500.jpg","brand":"DELL","rating":4.5},{"id":7,"name":"Dell Inspiron 15","price":64000,"description":"Model: Dell Inspiron 15 3501 Intel Core i5-1135G7 Processor (8M Cache,2.40 GHz up to 4.20 GHz) 4GB RAM +1TB HDD 15.6\" FHD(1920x1080) Display GeForce MX330 2GB graphics","img":"https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron/dell-intel/dell-intel-0014-500x500.jpg","brand":"DELL","rating":4.5},{"id":8,"name":"Dell Inspiron 15","price":64000,"description":"Model: Dell Inspiron 15 3501 Intel Core i5-1135G7 Processor (8M Cache,2.40 GHz up to 4.20 GHz) 4GB RAM +1TB HDD 15.6\" FHD(1920x1080) Display GeForce MX330 2GB graphics","img":"https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron/dell-intel/dell-intel-0014-500x500.jpg","brand":"DELL","rating":4.5},{"id":9,"name":"Dell Inspiron 15","price":64000,"description":"Model: Dell Inspiron 15 3501 Intel Core i5-1135G7 Processor (8M Cache,2.40 GHz up to 4.20 GHz) 4GB RAM +1TB HDD 15.6\" FHD(1920x1080) Display GeForce MX330 2GB graphics","img":"https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron/dell-intel/dell-intel-0014-500x500.jpg","brand":"DELL","rating":4.5}]
+[{"id":1,"name":"Dell Inspiron 15","price":64000,"description":"Model: Dell Inspiron 15 3501 Intel Core i5-1135G7 Processor (8M Cache,2.40 GHz up to 4.20 GHz) 4GB RAM +1TB HDD 15.6\" FHD(1920x1080) Display GeForce MX330 2GB graphics","img":"https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron/dell-intel/dell-intel-0014-500x500.jpg","brand":"DELL","rating":4.5},
+
+{
+    "id":2,
+    "name":"Lenovo IdeaPad Slim 3i",
+    "price":45500,
+    "description":"Model: IdeaPad Slim 3i, Intel Core i3-1005G1 Processor (4M Cache,1.20 GHz up to 3.40 GHz), 4GB DDR4 RAM + 1TB HDD, 15.6' HD (1366×768) TN Display, Windows 10 Home ",
+    "img":"https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ip-slim/ip-slim-15-500x500.jpg",
+    "brand":"LENOVO",
+    "rating":4.4
+},
+{
+    "id":3,
+    "name":"ASUS VivoBook 15 X515JA",
+    "price":48000,
+    "description": "Model: VivoBook 15 X515JA, Intel Core i3-1005G1 Processor (4M Cache, 1.20 GHz up to 3.40 GHz), 4GB DDR4 SDRAM, 1TB SATA 5400RPM HDD, 15.6' FHD LED Display",
+    "img":"https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x515ja/15-x515ja-slate-grey-500x500.jpg",
+    "brand":"ASUS",
+    "rating":4.5
+},
+{
+    "id":4,
+    "name":"Acer Extensa EX215-52",
+    "price":57000,
+    "description":"Model: Acer Extensa EX215-52, Intel Core i5-1035G1 Processor (6M Cache, 1.00 GHz up to 3.60 GHz), 8GB DDR4 SODIMM RAM, 1 TB 2.5-inch 5400RPM HDD, 15.6' FHD (1920 x 1080) Display",
+    "img":"https://www.startech.com.bd/image/cache/catalog/laptop/acer/extensa-ex215/extensa-ex215-1-500x500.jpg",
+    "brand":"ACER",
+    "rating":4.4
+},
+{
+    "id":5,
+    "name":"MSI Modern 14 B10MW",
+    "price":51000,
+    "description":"Model: MSI Modern 14 B10MW, Intel Core i3 10110U Processor (4MB Cache, 2.1Ghz up to 4.1Ghz), 4GB 2666mhz DDR4 RAM, 256GB NVMe SSD, 14' (1920 x 1080) FHD Display",
+    "img":"https://www.startech.com.bd/image/cache/catalog/laptop/msi/modern-14-b10mw/modern-14-b10mw-500x500.jpg",
+    "brand":"MSI",
+    "rating":4.6
+},
+{
+    "id":6,
+    "name":"Dell Vostro 14",
+    "price": 47500,
+    "description":"Model: Vostro 14 3400, Intel Core i3-1115G4 Processor (6MB Cache, 3.0 GHz up to 4.10 GHz), 4GB DDR4 2666MHz RAM, 1TB 5400 rpm 2.5' SATA HDD, 14 HD (1366 x 768) Display",
+    "img":"https://www.startech.com.bd/image/cache/catalog/laptop/dell/14-3400/vostro-14-3400-black-front-500x500.jpg",
+    "brand":"DELL",
+    "rating":4.5
+},
+{
+    "id":7,
+    "name":"HP 14-cf2234nia",
+    "price":66000,
+    "description":"Model: 14-cf2234nia, Intel Core i5-10210U Processor (6M Cache, 1.60 GHz up to 4.20 GHz), 4 GB DDR4 2666MHz RAM, 1 TB 5400rpm SATA HDD, 14' HD (1366 x 768) Display", 
+    "img":"https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/cf2234nia/cf2234nia-001-500x500.jpg",
+    "brand":"HP",
+    "rating":4.7
+},
+{
+    "id":8,
+    "name":"Lenovo V15",
+    "price":46500,
+    "description":"Model: V15, Intel Core i3-1005G1 Processor (4MB Cache, 1.2GHz Upto 3.4GHz), 4 GB DDR4 2666MHz RAM, 1 TB 5400 SATA HDD, 15.6' HD (1366x768) Display",
+    "img":"https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/v15/v15-0001-500x500.jpg",
+    "brand":"LENOVO",
+    "rating":4.6
+},
+{
+    "id":9,
+    "name":"Avita Liber V14",
+    "price":58990,
+    "description":"Model: Liber V14, Intel Core i5-10210U Processor (6M Cache, 1.60 GHz up to 4.20 GHz), 8GB DDR4 RAM, 512GB SSD, 14' IPS (1920 x 1080)FHD Display",
+    "img":"https://www.startech.com.bd/image/cache/catalog/laptop/avita/avita-liber/liber-14/liber-0001-500x500.jpg",
+    "brand":"AVITA",
+    "rating":4.4
+},
+{
+    "id":10,
+    "name":"Avita Liber V14",
+    "price": 57500,
+    "description":"Model: Liber V14, Intel Core i5-10210U Processor (6M Cache, 1.60 GHz up to 4.20 GHz), 8GB DDR4 RAM, 512GB SSD, 14' IPS (1920 x 1080)FHD Display",
+    "img":"https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ip-slim/ip-slim-15-500x500.jpg",
+    "brand":"AVITA",
+    "rating":4.3
+}
+]

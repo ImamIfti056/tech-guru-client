@@ -6,6 +6,7 @@ import Home from './Pages/Home/Home/Home';
 import Login from './Pages/Login/Login';
 import MyOrders from './Pages/MyOrders/MyOrders';
 import NotFound from './Pages/NotFound/NotFound';
+import Pay from './Pages/Pay/Pay';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 import Products from './Pages/Products/Products';
 import Purchase from './Pages/Purchase/Purchase';
@@ -29,6 +30,9 @@ function App() {
           </PrivateRoute>
           <PrivateRoute path='/allorders'>
             <AllOrders></AllOrders>
+          </PrivateRoute>
+          <PrivateRoute path='/pay'>
+            <Pay></Pay>
           </PrivateRoute>
           <PrivateRoute path='/myorders'>
             <MyOrders></MyOrders>
