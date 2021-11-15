@@ -1,14 +1,16 @@
 import { getAuth, signInWithEmailAndPassword } from '@firebase/auth';
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../hook/useAuth';
 
 const Login = () => {
 
+    const {user} = useAuth();
     const [isLoading, setIsLoading] = useState(true);
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
+    const [admin, setAdmin] = useState(false);
     const auth = getAuth();
 
     const handleEmail = e => {
@@ -23,11 +25,25 @@ const Login = () => {
     const history = useHistory();
     const redirect_uri = location.state?.from || '/home';
 
+    const storeUserData = (email, displayName, method) => {
+        const user = {email, displayName};
+        fetch('https://vast-meadow-55322.herokuapp.com/users', {
+            method: method,
+            headers: {
+                'content-type' : 'application/json'
+            },
+            body: JSON.stringify(user)
+        })
+        .then()
+    }
+
     // GOOGLE SIGN IN
     const handleGoogleLogin = () => {
         signInUsingGoogle()
         .then(res => {
             history.push(redirect_uri)
+            // storing users data
+            storeUserData(user.email, user.displayName, 'PUT');
         })
         .catch(error => console.log(error.message))
         .finally(() => setIsLoading(false))

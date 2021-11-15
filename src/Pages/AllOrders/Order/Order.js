@@ -10,7 +10,7 @@ const Order = (props) => {
         console.log(proceed);
         if(proceed){
             console.log("idnside");
-            const url = `http://localhost:5000/allorders/${id}`;
+            const url = `https://vast-meadow-55322.herokuapp.com/allorders/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })
