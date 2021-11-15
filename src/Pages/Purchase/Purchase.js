@@ -23,7 +23,7 @@ const Purchase = () => {
         e.preventDefault();
         const newOrder = {product: product, buyer: user.displayName, buyerEmail: user.email}
 
-        fetch( 'http://localhost:5000/allorders', {
+        fetch( 'https://vast-meadow-55322.herokuapp.com/allorders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -34,6 +34,7 @@ const Purchase = () => {
         .then(data => {
             if(data.insertedId){
                 alert('Your order has been placed.');
+
             }
         })
 

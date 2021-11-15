@@ -8,7 +8,7 @@ const MyOrders = () => {
     const {user} = useAuth();
 
     useEffect( () => {
-        fetch('http://localhost:5000/allorders')
+        fetch('https://vast-meadow-55322.herokuapp.com/allorders')
         .then(res => res.json())
         .then(data => setOrders(data))
     },[])
