@@ -28,9 +28,9 @@ function App() {
           <PrivateRoute path='/review'>
             <Review></Review>
           </PrivateRoute>
-          <PrivateRoute path='/products'>
+          <Route path='/products'>
             <Products></Products>
-          </PrivateRoute>
+          </Route>
           <PrivateRoute path='/purchase/:id'>
             <Purchase></Purchase>
           </PrivateRoute>
