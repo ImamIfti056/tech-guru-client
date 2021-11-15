@@ -11,7 +11,7 @@ const Product = (props) => {
                 <div className="card-body bg-dark text-light">
                     <h5 className="card-title text-danger">{name}</h5>
                     <p className="card-text">{description}</p>
-                    <Link to={`purchase/${id}`}><button className="btn btn-primary">Buy</button></Link>
+                    <Link to={`purchase/${id}`}><button className="btn btn-primary">Place Order</button></Link>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light py-4 bg-dark sticky-top">
             <div className="container-fluid">
-                <div className="mx-5 w-25"><Link className="fw-bold fs-3 text-white navbar-brand" to="/home">Tech Fest</Link></div>
+                <div className="mx-5 w-25"><Link className="fw-bold fs-3 text-white navbar-brand" to="/home">Tech Guru</Link></div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

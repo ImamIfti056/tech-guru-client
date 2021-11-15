@@ -13,7 +13,7 @@ const Review = () => {
         let rating = ratingRef.current.value;
         const newReview = {review: review, rating: rating, email: user.email, name: user.displayName};
         console.log(newReview);
-        fetch('http://localhost:5000/reviews', {
+        fetch('https://vast-meadow-55322.herokuapp.com/reviews', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

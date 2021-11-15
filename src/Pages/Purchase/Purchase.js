@@ -10,7 +10,7 @@ const Purchase = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://vast-meadow-55322.herokuapp.com/products')
         .then(res => res.json())
         .then(data => setProducts(data))
     } ,[])
@@ -18,9 +18,31 @@ const Purchase = () => {
     let product = products.find(p => p.id == id);
     console.log(product)
 
+    // handle buy now
+    const handleBuy = e => {
+        e.preventDefault();
+        const newOrder = {product: product, buyer: user.displayName, buyerEmail: user.email}
+
+        fetch( 'http://localhost:5000/allorders', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(newOrder)
+        })
+        .then(res => res.json())
+        .then(data => {
+            if(data.insertedId){
+                alert('Your order has been placed.');
+            }
+        })
+
+    }
+
     return (
         <div className='container'>
             <h1 className="text-center text-primary mt-5">Place your order!</h1>
+            <hr/>
             <div className="row row-cols-1 row-cols-md-3 align-items-start g-4">
                 <div className="product-img col-md-5 col-12">
                     <img className='img-fluid' src={product?.img} alt="product-img" />
@@ -34,10 +56,10 @@ const Purchase = () => {
                 </div>
             </div>
 
-            <form className='my-5'>
+            <form className='my-5 mx-auto w-75 text-center'>
                 <h2><span className="fw-bold">User Name: </span>{user.displayName}</h2>
                 <h4><span className="fw-bold">User Email: </span>{user.email}</h4>
-                <button className="btn btn-outline-primary">Buy Now!</button>
+                <button onClick={handleBuy} className="btn btn-outline-primary  mt-3">Buy Now!</button>
             </form>
         </div>
     );
